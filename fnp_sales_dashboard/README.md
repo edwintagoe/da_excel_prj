@@ -31,7 +31,7 @@ improve its sales strategy and optimize customer satisfaction:
 
 ## Technical Implementation
 ### Data Architecture
-- Data Source: [datasets](/.datasets)
+- Data Source: [datasets](datasets)
 - Data Model: Star Schema with following entities:
   - Orders
   - Products
