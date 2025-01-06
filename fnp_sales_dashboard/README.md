@@ -30,6 +30,9 @@ improve its sales strategy and optimize customer satisfaction:
 
 
 ## Technical Implementation
+## Dashboard File
+My final dashboard is in [datasets/dashboard.xlsx](datasets/dashboard.xlsx)
+
 ### Data Architecture
 - Data Source: [datasets](datasets)
 - Data Model: Star Schema with following entities:
