@@ -1,87 +1,76 @@
-# Data Professional Survey Dashboard
+# FDIC Failed Banks Analysis Dashboard
 
-![Data Professional Survey Dashboard](./datasets/images/survey.PNG)
+![FDIC Failed Banks Analysis Dashboard](./datasets/images/fdic.PNG)
 
 ## Problem Statement: 
-The data industry lacks comprehensive insights into professional demographics, compensation trends, and workforce satisfaction metrics. This gap in understanding makes it challenging for organizations to make informed decisions about hiring, retention, and industry competitiveness.
+Tracking and analyzing bank failures across different states and time periods is crucial for understanding financial sector stability. Without proper visualization and analysis, it's challenging to identify patterns and potential risk areas in the banking system.
 
-##  Project Goal: 
-To create an interactive dashboard that visualizes key metrics from a data professional survey, providing actionable insights about industry trends, salary distributions, and workforce satisfaction levels.
+## Project Goal
+To create an interactive visualization dashboard that tracks and analyzes FDIC bank failures across the United States, enabling stakeholders to identify geographical and temporal patterns in bank failures during 2012.
 
-## Deliverable: 
-A Power BI dashboard that presents:
-- Salary distribution across different data roles
-- Geographic salary variations
-- Programming language preferences
-- Industry entry barriers
-- Workforce satisfaction metrics
-- Demographic information
-
+## Expected Deliverable
+A Power BI dashboard that provides:
+- Geographic distribution of bank failures by state
+- Monthly trend analysis of bank failures
+- Interactive time controls for dynamic data exploration
+- Clear visualization of failure patterns
 
 ## Technical Implementation
-My final dashboard is in [datasets/dashboard.xlsx](datasets/dashboard.xlsx)
-- **Data Visualization Tool**: Power BI
-- **Key Visualizations**:
-  - Bar charts for salary and programming language analysis
-  - Donut chart for difficulty assessment
-  - Gauge charts for satisfaction metrics
-  - Geographic heat map for salary distribution
-- **Color Scheme**: Professional blue palette maintaining consistency across visualizations
-- **Interactive Elements**: Cross-filtering capabilities and dynamic tooltips
+My final dashboard is in [datasets/fdic_failed_banks.pbix](datasets/fdic_failed_banks.pbix)
+- **Platform**: Power BI
+- **Data Source**: FDIC Failed Banks Database
+- **Visualization Types**:
+  - Horizontal bar chart for state-wise analysis
+  - Column chart for monthly trends
+  - Interactive timeline controls
+- **Color Scheme**: Professional blue gradient with dark accents
+- **Interactive Elements**: Play/pause, forward/backward controls for time-based analysis
 
 ## Key Features Implemented
-1. Multi-metric Overview Panel
-   - Survey participant count (630)
-   - Average age of participants (30)
-   - Work-life balance score (5.74/10)
-   - Salary satisfaction index (4.27/10)
+1. Geographic Analysis Panel
+   - State-wise bank failure counts
+   - Color-coded bars for easy comparison
+   - Sorted display for quick ranking identification
 
-2. Comparative Analysis Tools
-   - Job title salary benchmarking
-   - Country-wise salary comparison
-   - Programming language popularity metrics
+2. Temporal Analysis Components
+   - Monthly distribution view
+   - Interactive timeline controls
+   - Year-specific data isolation (2012)
 
-3. Entry Barrier Assessment
-   - Percentage breakdown of difficulty levels
-   - Visual representation of industry accessibility
+3. User Interface Elements
+   - Intuitive navigation controls
+   - Clear data labels
+   - Consistent visual hierarchy
 
 ## Key Insights Generated
-1. Workforce Demographics
-   - Data Analyst is the most common role
-   - Young workforce with average age of 30
-   - Significant international representation
+1. Geographic Concentrations
+   - Georgia (GA) shows highest number of bank failures
+   - Florida (FL) and Illinois (IL) follow as second and third most affected states
+   - Notable concentration in southeastern United States
 
-2. Technical Preferences
-   - Python dominates as the preferred programming language
-   - Clear hierarchy in technology adoption rates
+2. Temporal Patterns
+   - July shows peak in bank failures
+   - Irregular distribution throughout the year
+   - October shows second highest concentration
 
-3. Industry Accessibility
-   - 23.34% find entry relatively easy
-   - 37.67% report difficulty entering the field
-   - Mixed experiences suggest varying entry paths
-
-4. Satisfaction Metrics
-   - Moderate work-life balance satisfaction (5.74/10)
-   - Lower salary satisfaction (4.27/10)
-   - Potential retention risk indicators
+3. Regional Trends
+   - Higher failure rates in larger states
+   - Significant impact in both coastal and inland states
+   - Clear geographic clustering of failures
 
 ## Business Impact
-1. Recruitment Strategy Enhancement
-   - Informed salary benchmarking for competitive offers
-   - Understanding of required technical skills
-   - Insights into geographical salary variations
 
-2. Retention Planning
-   - Identification of satisfaction pain points
-   - Work-life balance considerations
-   - Compensation strategy alignment
+1. Risk Assessment
+   - Identification of high-risk geographical areas
+   - Understanding of temporal failure patterns
+   - Better preparation for potential banking crises
 
-3. Industry Positioning
-   - Clear understanding of market competition
-   - Entry barrier awareness for training programs
-   - Technology stack prioritization
+2. Regulatory Insights
+   - Evidence-based policy making support
+   - Resource allocation for bank supervision
+   - Enhanced monitoring of at-risk regions
 
-4. Resource Allocation
-   - Training program development
-   - Compensation structure optimization
-   - Geographic expansion planning
+3. Stakeholder Communication
+   - Clear visualization for regulatory reporting
+   - Enhanced investor communications
+   - Public awareness and transparency

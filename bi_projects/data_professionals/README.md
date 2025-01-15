@@ -19,7 +19,7 @@ A Power BI dashboard that presents:
 
 
 ## Technical Implementation
-My final dashboard is in [datasets/dashboard.xlsx](datasets/dashboard.xlsx)
+My final dashboard is in [datasets/professional survey.pbix](datasets/professional survey.pbix)
 - **Data Visualization Tool**: Power BI
 - **Key Visualizations**:
   - Bar charts for salary and programming language analysis
