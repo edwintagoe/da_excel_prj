@@ -1,6 +1,6 @@
 # Excel Salary Dashboard
 
-![1_Salary_Dashboard.png](../images/1_Salary_Dashboard_Final_Dashboard.gif)
+![1_Salary_Dashboard.png](./datasets/images/1_Salary_Dashboard_Final_Dashboard.gif)
 
 ## Problem Statement
 

@@ -1,6 +1,6 @@
 # Coffee Sales Dashboard
 
-![Coffee Sales Dashboard](/images/maven.PNG)
+![Coffee Sales Dashboard](./datasets/images/maven.PNG)
 
 ## Problem Statement: 
 The project involves analyzing sales data for Maven Electronics to understand revenue trends across various product categories over multiple years. The goal is to identify patterns in sales performance and to determine which categories are driving revenue, thus informing business decisions.

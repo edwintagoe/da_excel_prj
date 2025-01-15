@@ -1,6 +1,6 @@
 # Coffee Sales Dashboard
 
-![Coffee Sales Dashboard](/images/coffee_sales_dashboard.PNG)
+![Coffee Sales Dashboard](./datasets/images/coffee_sales_dashboard.PNG)
 
 ## Problem Statement: 
 Businesses require insights into sales performance across different coffee types and time periods to make informed decisions about inventory, marketing strategies, and customer preferences.

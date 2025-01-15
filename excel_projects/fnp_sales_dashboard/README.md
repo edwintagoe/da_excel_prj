@@ -1,6 +1,6 @@
 # Sales Analytics Dashboard
 
-![Coffee Sales Dashboard](/images/fnp.PNG)
+![Coffee Sales Dashboard](./datasets/images/fnp.PNG)
 
 ## Problem Statement: 
 The e-commerce business faced challenges in:
